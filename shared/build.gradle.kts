@@ -34,8 +34,11 @@ kotlin {
             implementation(compose.animation)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            api("moe.tlaster:precompose:1.5.0")
-            api("moe.tlaster:precompose-viewmodel:1.5.0")
+
+            api("moe.tlaster:precompose:1.6.0-rc02")
+            api("moe.tlaster:precompose-molecule:1.6.0-rc02")
+            api("moe.tlaster:precompose-viewmodel:1.6.0-rc02")
+            api("moe.tlaster:precompose-koin:1.6.0-rc02")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
