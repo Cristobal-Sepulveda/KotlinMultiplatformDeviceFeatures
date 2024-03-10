@@ -7,3 +7,9 @@ plugins {
     id("com.android.library").version("8.1.0").apply(false)
     id("org.jetbrains.compose").version("1.6.0").apply(false)
 }
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
